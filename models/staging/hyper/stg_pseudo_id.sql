@@ -1,0 +1,1 @@
+ SELECT distinct user_pseudo_id from {{ source('analytics_292628166', 'events_*') }}
